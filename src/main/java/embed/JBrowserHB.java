@@ -69,10 +69,9 @@ public class JBrowserHB {
             by = new By.ByTagName("p");
             embedTO.setDescription(driver.findElements(by).get(0).getText());
         }
-        if(!StringUtils.isNotBlank((embedTO.getTitle()))){
-            by = new By.ByTagName("title");
-            embedTO.setTitle(driver.findElements(by).get(0).getText());
-        }
+        if(!StringUtils.isNotBlank((embedTO.getTitle())))
+            embedTO.setTitle(driver.getTitle());
+
         long lEndTime = System.nanoTime();
         long output = lEndTime - lStartTime;
         System.out.println("Elapsed time in milliseconds: " + output / 1000000);

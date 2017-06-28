@@ -1,0 +1,44 @@
+[INFO  - 2017-06-28T09:43:20.225Z] GhostDriver - Main - running on port 9597
+[INFO  - 2017-06-28T09:43:20.844Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2017-06-28T09:43:20.844Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - page.customHeaders:  - {}
+[INFO  - 2017-06-28T09:43:20.844Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":false,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-06-28T09:43:20.844Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 389b3170-5be6-11e7-b4c6-f9d0e099d58f
+[ERROR - 2017-06-28T09:43:25.276Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-06-28T09:43:25.276Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+[ERROR - 2017-06-28T09:43:25.283Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-06-28T09:43:25.284Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - page.onError - stack:
+  load (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:7)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:7)
+  createdCallback (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:7)
+  i (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  n (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  r (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  v (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  i (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  o (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  g (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+  t (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:2)
+[ERROR - 2017-06-28T09:43:28.128Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2017-06-28T09:43:28.128Z] Session [389b3170-5be6-11e7-b4c6-f9d0e099d58f] - page.onError - stack:
+  o (https://assets-cdn.github.com/assets/frameworks-b9f891faa0e9caf23b90af04c6633548c9b4069fd1fc72bbfca809d70f0d8172.js:1)
+[INFO  - 2017-06-28T09:43:28.148Z] ShutdownReqHand - _handle - About to shutdown

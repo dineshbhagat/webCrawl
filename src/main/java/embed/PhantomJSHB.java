@@ -19,7 +19,7 @@ public class PhantomJSHB {
 
         System.setProperty("phantomjs.page.settings.userAgent", USER_AGENT);
         initPhantomJS();
-        driver.get("https://hashnode.com");
+        driver.get("https://github.com/Ipseeta");
 
         System.out.println(driver.getTitle());
         driver.quit();

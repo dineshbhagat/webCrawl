@@ -1,3 +1,5 @@
+package embed;
+
 import com.gargoylesoftware.htmlunit.DefaultCredentialsProvider;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.DomAttr;
@@ -39,10 +41,7 @@ public class HTMLUnitHB {
             webClient.addRequestHeader("scheme","https");
             webClient.addRequestHeader("Connection","keep-alive");
 
-            //webClient.addRequestHeader("Host","www.linkedin.com");
-            //"https://www.linkedin.com/in/ipseeta-priyadarshini-689aa482/"
-            //https://github.com/Ipseeta/
-            HtmlPage page = webClient.getPage("https://www.linkedin.com/in/ipseeta-priyadarshini-689aa482/");
+            HtmlPage page = webClient.getPage("https://github.com/Ipseeta/");
             DomNodeList<DomElement> inputs = page.getElementsByTagName("meta");
             for (int i = 0; i < inputs.size(); i++) {
                 DomElement domElement = inputs.get(i);
