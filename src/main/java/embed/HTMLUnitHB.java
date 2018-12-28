@@ -30,7 +30,7 @@ public class HTMLUnitHB {
             webClient.addRequestHeader("User-Agent",UA);
             CredentialsProvider credentialsProvider = new DefaultCredentialsProvider();
             AuthScope authScope = new AuthScope("static.licdn.com",443);
-            Credentials credentials = new UsernamePasswordCredentials("ipseeta.pkar@gmail.com","!PapaMama20June");
+            Credentials credentials = new UsernamePasswordCredentials("abcd@gmail.com","abcd");
             credentialsProvider.setCredentials(authScope,credentials);
             webClient.setCredentialsProvider(credentialsProvider);
             //webClient.addRequestHeader("accept","text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8");
